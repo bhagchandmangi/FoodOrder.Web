@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodOrder.Models", "FoodOrd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodOrder.ViewModels", "FoodOrder.ViewModels\FoodOrder.ViewModels.csproj", "{A4C3AF24-5B06-48D7-91A0-CC59A490C126}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodOrder.DataAccessLayer", "FoodOrder.DataAccessLayer\FoodOrder.DataAccessLayer.csproj", "{CE32A721-9E7C-41C2-A8FB-16D1538563B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodOrder.Utility", "FoodOrder.Utility\FoodOrder.Utility.csproj", "{05DD682C-831E-4619-8F20-497F1814ACEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{A4C3AF24-5B06-48D7-91A0-CC59A490C126}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4C3AF24-5B06-48D7-91A0-CC59A490C126}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4C3AF24-5B06-48D7-91A0-CC59A490C126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE32A721-9E7C-41C2-A8FB-16D1538563B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE32A721-9E7C-41C2-A8FB-16D1538563B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE32A721-9E7C-41C2-A8FB-16D1538563B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE32A721-9E7C-41C2-A8FB-16D1538563B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05DD682C-831E-4619-8F20-497F1814ACEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DD682C-831E-4619-8F20-497F1814ACEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DD682C-831E-4619-8F20-497F1814ACEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05DD682C-831E-4619-8F20-497F1814ACEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
