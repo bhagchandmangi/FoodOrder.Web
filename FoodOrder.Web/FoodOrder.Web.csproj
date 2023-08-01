@@ -6,4 +6,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FoodOrder.DataAccessLayer\FoodOrder.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\FoodOrder.Models\FoodOrder.Models.csproj" />
+    <ProjectReference Include="..\FoodOrder.Utility\FoodOrder.Utility.csproj" />
+    <ProjectReference Include="..\FoodOrder.ViewModels\FoodOrder.ViewModels.csproj" />
+  </ItemGroup>
+
 </Project>
