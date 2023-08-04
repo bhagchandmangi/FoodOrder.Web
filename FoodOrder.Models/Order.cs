@@ -8,7 +8,7 @@ namespace FoodOrder.Models
 {
     public class Order
     {
-        public int Id { get; set; } 
+        public string Id { get; set; } 
         public int UserId { get; set; }
         public string PaymentId { get; set; }
         public string Street { get; set; }
@@ -16,7 +16,7 @@ namespace FoodOrder.Models
         public string ZipCode { get; set; }
         public DateTime CreatedDate { get; set; }
         public string Locality { get; set; }
-        public string PhoneNumber { get; set; } 
-        public ICollection<OrderItem> OrderItem { get; set; }
+        public string PhoneNumber { get; set; }
+        public ICollection<OrderItem> OrderItems { get; set; } = new HashSet<OrderItem>();
     }
 }
