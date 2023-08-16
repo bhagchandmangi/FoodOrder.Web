@@ -16,12 +16,11 @@ namespace FoodOrder.Models
             UnitPrice = unitPrice;
         }
         public int Id { get; set; }
-        public Guid Cartid { get; set; }
+        public Guid CardId { get; set; }
         public int ItemId { get; set; } 
         public decimal UnitPrice { get; set; }
         public int Quantity { get; set; }
         [JsonIgnore]
         public Cart Cart { get; set; }
-
     }
 }

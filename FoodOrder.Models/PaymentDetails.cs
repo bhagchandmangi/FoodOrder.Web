@@ -15,9 +15,9 @@ namespace FoodOrder.Models
         public decimal Total { get; set; }
         public string Email { get; set; }
         public string Status { get; set; }
+
         public Guid CartId { get; set; }
         public int UserId { get; set; }
         public decimal FinalTotal { get; set; }
-
     }
 }

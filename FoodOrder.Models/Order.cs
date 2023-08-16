@@ -8,6 +8,7 @@ namespace FoodOrder.Models
 {
     public class Order
     {
+
         public string Id { get; set; }
         public int UserId { get; set; }
         public string PaymentId { get; set; }
