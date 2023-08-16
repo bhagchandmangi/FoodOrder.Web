@@ -14,7 +14,8 @@ namespace FoodOrder.DataAccessLayer
         IdentityDbContext<User, Role, int>
     {
         public ApplicationDbContext(
-            DbContextOptions<ApplicationDbContext> options) : base(options) { }
+            DbContextOptions<ApplicationDbContext> options) 
+            : base(options) { }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Item> Items { get; set; }
         public DbSet<ItemType> ItemTypes { get; set; }
